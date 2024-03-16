@@ -38,3 +38,18 @@ with open('input.txt', 'r', encoding='utf-8') as file:
 
     ans = find_lenght(ropes)
     print(ans)
+
+
+# Test
+# ropes = [
+#     (4, [1, 5, 2, 1], 1),
+#     (4, [5, 12, 4, 3], 24),
+#     (3, [3, 4, 5], 12),
+#     (20, [22, 12, 17, 6, 14, 15, 17, 9, 18, 33, 18, 23, 10, 11, 25,
+#           8, 1, 32, 3, 23, 6, 7, 22, 28, 31, 17, 1, 30, 27, 488], 2),
+# ]
+#
+# i = 1
+# for rope, lenghts, ans in ropes:
+#     assert find_lenght(lenghts) == ans, f'Тест {i}'
+#     i += 1
