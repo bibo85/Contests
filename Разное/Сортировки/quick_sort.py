@@ -13,7 +13,6 @@ def supp_func(arr):
     pivot = [num for num in arr if num == arr[-1]]
     less = [num for num in arr if num < arr[-1]]
     greater = [num for num in arr if num > arr[-1]]
-    print(pivot, less, greater)
     return pivot, less, greater
 
 
