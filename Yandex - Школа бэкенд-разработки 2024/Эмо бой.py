@@ -38,8 +38,7 @@ def check_nickname(inp_str: str) -> bool:
 alphabet = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ"
 nickname = input()
 res = check_nickname(nickname)
-print("YES") if res else print("NO")
-
+print("YES" if res else "NO")
 
 # tests = [
 #     ("altushka", False),
@@ -60,4 +59,3 @@ print("YES") if res else print("NO")
 # for i_str, ans in tests:
 #     print(f"Выполняется тест {i_str}, {ans}")
 #     assert check_nickname(i_str) == ans, f'Test {i_str}, {ans}'
-
